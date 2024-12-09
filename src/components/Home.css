@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .profile-container img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-container img {
+    max-width: 150px;
+  }
+}

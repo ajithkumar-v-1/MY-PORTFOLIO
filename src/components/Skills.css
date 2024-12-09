@@ -1,0 +1,63 @@
+/* Basic styling for the skills section */
+.skills-section {
+    padding: 50px 0;
+    text-align: center;
+    overflow: hidden; /* Prevent the skills from going outside the container */
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Skills container */
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* Hide the overflowing content */
+  }
+  
+  /* Scrolling list of skills */
+  .skills-list {
+    display: flex;
+    animation: scrollSkills 10s linear infinite; /* Apply animation */
+  }
+  
+  /* Skill styling */
+  .skill {
+    background-color: #f0f0f0;
+    padding: 15px 30px;
+    margin: 0 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    color: #333;
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .skill:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  /* Keyframes for left to right animation */
+  @keyframes scrollSkills {
+    0% {
+      transform: translateX(-100%); /* Start from the left (off-screen) */
+    }
+    100% {
+      transform: translateX(100%); /* Move to the right (off-screen) */
+    }
+  }
+  

@@ -1,0 +1,27 @@
+.scroll-to-top-btn:hover {
+  transform: translateY(-3px);
+  opacity: 1 !important;
+}
+
+@media (max-width: 768px) {
+  .scroll-to-top-btn {
+    bottom: 15px !important;
+    right: 15px !important;
+    width: 35px !important;
+    height: 35px !important;
+  }
+  
+  .scroll-to-top-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-to-top-btn {
+    bottom: 10px !important;
+    right: 10px !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+}

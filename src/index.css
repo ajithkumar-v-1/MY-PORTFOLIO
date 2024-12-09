@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway','sans-serif' ;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+form input,
+form textarea {
+  resize: none;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-mode .navbar {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+body.light-mode a {
+  color: #007bff;
+}
+
+body.light-mode button {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .navbar {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+
+body.dark-mode a {
+  color: #bb86fc;
+}
+
+body.dark-mode button {
+  background-color: #bb86fc;
+  color: #121212;
+}
+
+/* Global styles common to both light and dark modes */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald';
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+form input,
+form textarea {
+  resize: none;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-mode .navbar {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+body.light-mode a {
+  color: #007bff;
+}
+
+body.light-mode button {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .navbar {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+
+body.dark-mode a {
+  color: #bb86fc;
+}
+
+body.dark-mode button {
+  background-color: #bb86fc;
+  color: #121212;
+}
+/* Footer Component Styles */
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid;
+  transition: all 0.3s ease;
+}
+
+.footer-icons a {
+  margin: 0 15px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+/* Light Mode Footer Styles */
+body.light-mode .footer {
+  background-color: #f8f9fa;
+  color: #000000;
+  border-color: #ddd;
+}
+
+body.light-mode .footer-icons a {
+  color: #007bff;
+}
+
+body.light-mode .footer-icons a:hover {
+  color: #0056b3;
+}
+
+/* Dark Mode Footer Styles */
+body.dark-mode .footer {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  border-color: #555;
+}
+
+body.dark-mode .footer-icons a {
+  color: #bb86fc;
+}
+
+body.dark-mode .footer-icons a:hover {
+  color: #9a68dc;
+}
+
+*a {
+  color: #a7a4a1; /* Soft gray links */
+}

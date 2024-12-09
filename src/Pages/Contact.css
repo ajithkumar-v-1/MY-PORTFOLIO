@@ -1,0 +1,31 @@
+.contact-form {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  .contact-form {
+    padding: 10px;
+  }
+  
+  .form-control {
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .contact-form {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  .contact-form {
+    padding: 20px;
+  }
+}
