@@ -58,7 +58,7 @@ const Home = () => {
 <div className="col-12 d-flex flex-column flex-sm-row justify-content-center gap-4">
   {/* Resume Button */}
   <a
-    href="https://drive.google.com/file/d/1OMmDTGnntTWMhy2mhM8_-0CyBxLCZZh0/view?usp=drive_link"
+    href="https://drive.google.com/file/d/1XF6wlmSqI6sNQ3B9dF4e7W8Ci5CwEg2z/view?usp=sharing"
     target="_blank"
     download
     className="btn px-4 py-2 rounded-pill border"
